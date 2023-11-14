@@ -18,7 +18,7 @@ const oauthClient = new intuitOauth({
   clientId: 'ABRSHpzDeftShiJEnNKQih8EkhpD4csMNyviIrl6Y8Q1pyEaJl',
   clientSecret: '0vvrjkmubbfXGLrpuMD5MInNEDMRJEngNSIxknaj',
   environment: 'sandbox', // Puedes cambiarlo a 'production' en un entorno de producción
-  redirectUri: 'http://localhost:3000/callback',
+  redirectUri: 'https://intuittest.onrender.com/callback',
 });
 
 // Ruta de inicio de sesión con Intuit
